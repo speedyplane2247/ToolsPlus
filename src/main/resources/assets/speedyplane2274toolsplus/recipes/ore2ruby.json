@@ -1,0 +1,43 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    },
+    "1": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    },
+    "2": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    },
+    "3": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    },
+    "4": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "5": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    },
+    "6": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    },
+    "7": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    },
+    "8": {
+      "item": "speedyplane2274toolsplus:rubyore"
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:ruby",
+    "count": 8
+  }
+}

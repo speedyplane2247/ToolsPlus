@@ -1,0 +1,26 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "2": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "3": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "5": {
+      "item": "speedyplane2274toolsplus:ruby"
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:rubyarmourclassboots",
+    "count": 1
+  }
+}

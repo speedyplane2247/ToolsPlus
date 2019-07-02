@@ -1,0 +1,36 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "1": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "2": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "3": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "5": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "6": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "8": {
+      "item": "speedyplane2274toolsplus:ruby"
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:rubyarmourclasslegs",
+    "count": 1
+  }
+}
