@@ -1,0 +1,13 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "speedyplane2274toolsplus:rubyblock"
+    }
+  ],
+  "result": {
+    "item": "speedyplane2274toolsplus:ruby",
+    "count": 9
+  }
+}

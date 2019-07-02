@@ -1,0 +1,43 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald_ore"
+    },
+    "1": {
+      "item": "minecraft:emerald_ore"
+    },
+    "2": {
+      "item": "minecraft:emerald_ore"
+    },
+    "3": {
+      "item": "minecraft:emerald_ore"
+    },
+    "4": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "5": {
+      "item": "minecraft:emerald_ore"
+    },
+    "6": {
+      "item": "minecraft:emerald_ore"
+    },
+    "7": {
+      "item": "minecraft:emerald_ore"
+    },
+    "8": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald",
+    "count": 8
+  }
+}

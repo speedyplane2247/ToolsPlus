@@ -1,0 +1,43 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ore"
+    },
+    "1": {
+      "item": "minecraft:iron_ore"
+    },
+    "2": {
+      "item": "minecraft:iron_ore"
+    },
+    "3": {
+      "item": "minecraft:iron_ore"
+    },
+    "4": {
+      "item": "minecraft:coal",
+      "data": 32767
+    },
+    "5": {
+      "item": "minecraft:iron_ore"
+    },
+    "6": {
+      "item": "minecraft:iron_ore"
+    },
+    "7": {
+      "item": "minecraft:iron_ore"
+    },
+    "8": {
+      "item": "minecraft:iron_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_ore",
+    "count": 8
+  }
+}

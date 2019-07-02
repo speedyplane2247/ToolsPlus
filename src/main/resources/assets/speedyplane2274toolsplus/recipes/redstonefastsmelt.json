@@ -1,0 +1,43 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_ore"
+    },
+    "1": {
+      "item": "minecraft:redstone_ore"
+    },
+    "2": {
+      "item": "minecraft:redstone_ore"
+    },
+    "3": {
+      "item": "minecraft:redstone_ore"
+    },
+    "4": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "5": {
+      "item": "minecraft:redstone_ore"
+    },
+    "6": {
+      "item": "minecraft:redstone_ore"
+    },
+    "7": {
+      "item": "minecraft:redstone_ore"
+    },
+    "8": {
+      "item": "minecraft:redstone_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 18
+  }
+}

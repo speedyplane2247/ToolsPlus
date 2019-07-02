@@ -1,0 +1,26 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "1": {
+      "item": "minecraft:flint"
+    },
+    "2": {
+      "item": "minecraft:coal",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:slackitem",
+    "count": 32
+  }
+}

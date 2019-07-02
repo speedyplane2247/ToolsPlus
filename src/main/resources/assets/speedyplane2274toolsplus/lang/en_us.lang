@@ -1,11 +1,12 @@
 tile.rubyblock.name=Ruby Block
+item.slackitem.name=Slack
 item.rubyarmourclasslegs.name=Ruby Leggings
 advancements.findaruby.title=Kitted up Red
 item.rubyarmourclassbody.name=Ruby Chestplate
 advancements.findaruby.descr=Put on a piece of Ruby armour.
 item.rubytoolclass.name=Ruby Pickaxe
-item.checkmark.name=get out here young'n!
 tile.rubyore.name=Ruby Ore
+item.checkmark.name=get out here young'n!
 item.rubyaxeclass.name=Ruby Axe
 item.rubyarmourclassboots.name=Ruby Boots
 item.rubyarmourclasshelmet.name=Ruby Helmet
