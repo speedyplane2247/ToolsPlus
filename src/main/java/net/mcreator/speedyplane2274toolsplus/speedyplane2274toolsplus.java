@@ -40,7 +40,7 @@ import java.util.ArrayList;
 public class speedyplane2274toolsplus implements IFuelHandler, IWorldGenerator {
 
 	public static final String MODID = "speedyplane2274toolsplus";
-	public static final String VERSION = "alpha1.1.0";
+	public static final String VERSION = "alpha1.2.0";
 	@SidedProxy(clientSide = "net.mcreator.speedyplane2274toolsplus.ClientProxyspeedyplane2274toolsplus", serverSide = "net.mcreator.speedyplane2274toolsplus.CommonProxyspeedyplane2274toolsplus")
 	public static CommonProxyspeedyplane2274toolsplus proxy;
 	@Instance(MODID)
@@ -77,6 +77,18 @@ public class speedyplane2274toolsplus implements IFuelHandler, IWorldGenerator {
 		elements.add(new MCreatorSlackITEM(this));
 		elements.add(new MCreatorSlackFuel(this));
 		elements.add(new MCreatorSlackGrid(this));
+		elements.add(new MCreatorFurnacePlus(this));
+		elements.add(new MCreatorEmeraldArmour(this));
+		elements.add(new MCreatorRubyShovel(this));
+		elements.add(new MCreatorRubyHoe(this));
+		elements.add(new MCreatorEmeraldPickaxe(this));
+		elements.add(new MCreatorEmeraldAxe(this));
+		elements.add(new MCreatorEmeraldShovel(this));
+		elements.add(new MCreatorEmeraldHeo(this));
+		elements.add(new MCreatorEmeraldHelm(this));
+		elements.add(new MCreatorEmeraldChest(this));
+		elements.add(new MCreatorEmeraldLeggs(this));
+		elements.add(new MCreatorEmeraldBoots(this));
 	}
 
 	@Override
@@ -154,11 +166,15 @@ public class speedyplane2274toolsplus implements IFuelHandler, IWorldGenerator {
 
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorFurnacePlus.GUIID)
+				return new MCreatorFurnacePlus.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorFurnacePlus.GUIID)
+				return new MCreatorFurnacePlus.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
