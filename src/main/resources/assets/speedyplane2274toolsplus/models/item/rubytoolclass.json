@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "speedyplane2274toolsplus:items/pick_texture_ruby"
+  }
+}

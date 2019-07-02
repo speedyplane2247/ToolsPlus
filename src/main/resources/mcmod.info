@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "speedyplane2274toolsplus",
+    "name": "ToolsPlus",
+    "description": "",
+    "version": "alpha1.0.0",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://mcreator.net",
+    "updateUrl": "",
+    "authorList": [
+      "noah",
+      "MCreator"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": []
+  }
+]
