@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "speedyplane2274toolsplus:checkmark"
+    },
+    "title": {
+      "translate": "advancements.findaruby.title"
+    },
+    "description": {
+      "translate": "advancements.findaruby.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "findaruby": {
+      "trigger": "findaruby"
+    }
+  }
+}

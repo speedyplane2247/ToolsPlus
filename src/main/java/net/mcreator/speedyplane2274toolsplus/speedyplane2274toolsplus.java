@@ -64,6 +64,9 @@ public class speedyplane2274toolsplus implements IFuelHandler, IWorldGenerator {
 		elements.add(new MCreatorRubyChest(this));
 		elements.add(new MCreatorRubyLeggs(this));
 		elements.add(new MCreatorRubyFeet(this));
+		elements.add(new MCreatorCheckmark(this));
+		elements.add(new MCreatorFindARuby(this));
+		elements.add(new MCreatorRubyBlock(this));
 	}
 
 	@Override

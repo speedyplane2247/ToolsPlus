@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "speedyplane2274toolsplus:blocks/rubyclock",
+    "up": "speedyplane2274toolsplus:blocks/rubyclock",
+    "north": "speedyplane2274toolsplus:blocks/rubyclock",
+    "east": "speedyplane2274toolsplus:blocks/rubyclock",
+    "south": "speedyplane2274toolsplus:blocks/rubyclock",
+    "west": "speedyplane2274toolsplus:blocks/rubyclock",
+    "particle": "speedyplane2274toolsplus:blocks/rubyclock"
+  }
+}

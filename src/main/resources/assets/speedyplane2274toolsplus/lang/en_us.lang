@@ -1,8 +1,12 @@
+tile.rubyblock.name=Ruby Block
 item.rubyarmourclasslegs.name=Ruby Leggings
-item.rubyaxeclass.name=Ruby Axe
+advancements.findaruby.title=Kitted up Red
 item.rubyarmourclassbody.name=Ruby Chestplate
+advancements.findaruby.descr=Put on a piece of Ruby armour.
 item.rubytoolclass.name=Ruby Pickaxe
-item.rubyarmourclassboots.name=Ruby Boots
-item.ruby.name=Ruby
-item.rubyarmourclasshelmet.name=Ruby Helmet
+item.checkmark.name=get out here young'n!
 tile.rubyore.name=Ruby Ore
+item.rubyaxeclass.name=Ruby Axe
+item.rubyarmourclassboots.name=Ruby Boots
+item.rubyarmourclasshelmet.name=Ruby Helmet
+item.ruby.name=Ruby
