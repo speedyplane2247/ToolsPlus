@@ -89,6 +89,17 @@ public class speedyplane2274toolsplus implements IFuelHandler, IWorldGenerator {
 		elements.add(new MCreatorEmeraldChest(this));
 		elements.add(new MCreatorEmeraldLeggs(this));
 		elements.add(new MCreatorEmeraldBoots(this));
+		elements.add(new MCreatorReinforcedStick(this));
+		elements.add(new MCreatorReinforcedStick2x2(this));
+		elements.add(new MCreatorRubyPickaxe(this));
+		elements.add(new MCreatorRubyAxe(this));
+		elements.add(new MCreatorCheckBox(this));
+		elements.add(new MCreatorRubyShovelX(this));
+		elements.add(new MCreatorRubyHoeX(this));
+		elements.add(new MCreatorEmeraldPickAss(this));
+		elements.add(new MCreatorEmeraldAxeX(this));
+		elements.add(new MCreatorEmeraldShovelX(this));
+		elements.add(new MCreatorEmeraldBackHoeRecipe(this));
 	}
 
 	@Override
