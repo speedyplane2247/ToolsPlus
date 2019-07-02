@@ -1,0 +1,24 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "1": {
+      "item": "speedyplane2274toolsplus:reinforcedstick"
+    },
+    "2": {
+      "item": "speedyplane2274toolsplus:reinforcedstick"
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:rubyshovel",
+    "count": 1
+  }
+}

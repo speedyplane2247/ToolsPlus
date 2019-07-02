@@ -10,7 +10,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Set;
@@ -30,7 +29,7 @@ public class MCreatorEmeraldPickaxe extends speedyplane2274toolsplus.ModElement 
 				ret.put("pickaxe", 1);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("emeraldpickaxe").setRegistryName("emeraldpickaxe").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("emeraldpickaxe").setRegistryName("emeraldpickaxe").setCreativeTab(MCreatorToolsPlus.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

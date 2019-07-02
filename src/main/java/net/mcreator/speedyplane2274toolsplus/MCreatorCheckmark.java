@@ -34,7 +34,7 @@ public class MCreatorCheckmark extends speedyplane2274toolsplus.ModElement {
 			maxStackSize = 1;
 			setUnlocalizedName("checkmark");
 			setRegistryName("checkmark");
-			setCreativeTab(null);
+			setCreativeTab(MCreatorToolsPlus.tab);
 		}
 
 		@Override

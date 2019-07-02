@@ -1,3 +1,2 @@
 # ToolsPlus
-A minecraft mod made in MCreator that adds new tools.
-### THESE ARE ALL DESIGNED FOR 1.12.2!
+ToolsPlus is a mod designed to boost vanilla Minecraft for 1.12.2.

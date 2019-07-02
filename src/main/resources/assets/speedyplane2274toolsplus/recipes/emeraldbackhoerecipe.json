@@ -1,0 +1,30 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald"
+    },
+    "1": {
+      "item": "minecraft:emerald"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:emerald_block"
+    },
+    "7": {
+      "item": "speedyplane2274toolsplus:reinforcedstick"
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:emeraldheo",
+    "count": 1
+  }
+}

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "speedyplane2274toolsplus:blocks/ruby_ore",
-    "up": "speedyplane2274toolsplus:blocks/ruby_ore",
-    "north": "speedyplane2274toolsplus:blocks/ruby_ore",
-    "east": "speedyplane2274toolsplus:blocks/ruby_ore",
-    "south": "speedyplane2274toolsplus:blocks/ruby_ore",
-    "west": "speedyplane2274toolsplus:blocks/ruby_ore",
-    "particle": "speedyplane2274toolsplus:blocks/ruby_ore"
+    "down": "speedyplane2274toolsplus:blocks/ruby_ore_new",
+    "up": "speedyplane2274toolsplus:blocks/ruby_ore_new",
+    "north": "speedyplane2274toolsplus:blocks/ruby_ore_new",
+    "east": "speedyplane2274toolsplus:blocks/ruby_ore_new",
+    "south": "speedyplane2274toolsplus:blocks/ruby_ore_new",
+    "west": "speedyplane2274toolsplus:blocks/ruby_ore_new",
+    "particle": "speedyplane2274toolsplus:blocks/ruby_ore_new"
   }
 }

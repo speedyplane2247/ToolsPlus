@@ -30,7 +30,7 @@
       "item": "speedyplane2274toolsplus:rubyore"
     },
     "7": {
-      "item": "speedyplane2274toolsplus:rubyore"
+      "item": "minecraft:torch"
     },
     "8": {
       "item": "speedyplane2274toolsplus:rubyore"
@@ -38,6 +38,6 @@
   },
   "result": {
     "item": "speedyplane2274toolsplus:ruby",
-    "count": 8
+    "count": 10
   }
 }

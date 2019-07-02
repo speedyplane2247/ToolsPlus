@@ -13,7 +13,6 @@ import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
@@ -44,13 +43,13 @@ public class MCreatorRubyBlock extends speedyplane2274toolsplus.ModElement {
 			super(Material.IRON);
 			setRegistryName("rubyblock");
 			setUnlocalizedName("rubyblock");
-			setSoundType(SoundType.GROUND);
+			setSoundType(SoundType.METAL);
 			setHarvestLevel("pickaxe", 1);
 			setHardness(2F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.REDSTONE);
+			setCreativeTab(MCreatorToolsPlus.tab);
 		}
 
 		@SideOnly(Side.CLIENT)

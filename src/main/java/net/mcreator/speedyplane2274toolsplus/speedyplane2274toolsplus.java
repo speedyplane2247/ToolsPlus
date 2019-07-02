@@ -40,7 +40,7 @@ import java.util.ArrayList;
 public class speedyplane2274toolsplus implements IFuelHandler, IWorldGenerator {
 
 	public static final String MODID = "speedyplane2274toolsplus";
-	public static final String VERSION = "alpha1.2.0";
+	public static final String VERSION = "beta1.0";
 	@SidedProxy(clientSide = "net.mcreator.speedyplane2274toolsplus.ClientProxyspeedyplane2274toolsplus", serverSide = "net.mcreator.speedyplane2274toolsplus.CommonProxyspeedyplane2274toolsplus")
 	public static CommonProxyspeedyplane2274toolsplus proxy;
 	@Instance(MODID)
@@ -100,6 +100,8 @@ public class speedyplane2274toolsplus implements IFuelHandler, IWorldGenerator {
 		elements.add(new MCreatorEmeraldAxeX(this));
 		elements.add(new MCreatorEmeraldShovelX(this));
 		elements.add(new MCreatorEmeraldBackHoeRecipe(this));
+		elements.add(new MCreatorToolsPlus(this));
+		elements.add(new MCreatorObsidianCastle(this));
 	}
 
 	@Override

@@ -1,0 +1,27 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "1": {
+      "item": "speedyplane2274toolsplus:ruby"
+    },
+    "3": {
+      "item": "speedyplane2274toolsplus:reinforcedstick"
+    },
+    "5": {
+      "item": "speedyplane2274toolsplus:reinforcedstick"
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:rubyhoe",
+    "count": 1
+  }
+}

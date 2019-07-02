@@ -11,7 +11,6 @@ import net.minecraft.item.ItemTool;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.init.Blocks;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
@@ -29,7 +28,7 @@ public class MCreatorEmeraldAxe extends speedyplane2274toolsplus.ModElement {
 	public MCreatorEmeraldAxe(speedyplane2274toolsplus instance) {
 		super(instance);
 		instance.items.add(() -> new ItemToolCustom() {
-		}.setUnlocalizedName("emeraldaxe").setRegistryName("emeraldaxe").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("emeraldaxe").setRegistryName("emeraldaxe").setCreativeTab(MCreatorToolsPlus.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

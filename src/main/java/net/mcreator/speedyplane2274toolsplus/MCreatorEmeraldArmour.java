@@ -10,7 +10,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 public class MCreatorEmeraldArmour extends speedyplane2274toolsplus.ModElement {
@@ -26,16 +25,16 @@ public class MCreatorEmeraldArmour extends speedyplane2274toolsplus.ModElement {
 
 	public MCreatorEmeraldArmour(speedyplane2274toolsplus instance) {
 		super(instance);
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("EMERALDARMOUR", "speedyplane2274toolsplus:emeraldarmour", 26, new int[]{6, 7, 8,
-				4}, 13, null, 0f);
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("EMERALDARMOUR", "speedyplane2274toolsplus:emerald_texture", 26, new int[]{6, 7,
+				8, 4}, 13, null, 0f);
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("emeraldarmourhelmet")
-				.setRegistryName("emeraldarmourhelmet").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("emeraldarmourhelmet").setCreativeTab(MCreatorToolsPlus.tab));
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("emeraldarmourbody")
-				.setRegistryName("emeraldarmourbody").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("emeraldarmourbody").setCreativeTab(MCreatorToolsPlus.tab));
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS).setUnlocalizedName("emeraldarmourlegs")
-				.setRegistryName("emeraldarmourlegs").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("emeraldarmourlegs").setCreativeTab(MCreatorToolsPlus.tab));
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET).setUnlocalizedName("emeraldarmourboots")
-				.setRegistryName("emeraldarmourboots").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("emeraldarmourboots").setCreativeTab(MCreatorToolsPlus.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

@@ -14,7 +14,6 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
@@ -28,7 +27,7 @@ public class MCreatorEmeraldHeo extends speedyplane2274toolsplus.ModElement {
 	public MCreatorEmeraldHeo(speedyplane2274toolsplus instance) {
 		super(instance);
 		instance.items.add(() -> new ItemToolCustom() {
-		}.setUnlocalizedName("emeraldheo").setRegistryName("emeraldheo").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("emeraldheo").setRegistryName("emeraldheo").setCreativeTab(MCreatorToolsPlus.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -40,7 +39,7 @@ public class MCreatorEmeraldHeo extends speedyplane2274toolsplus.ModElement {
 	private static class ItemToolCustom extends Item {
 
 		protected ItemToolCustom() {
-			setMaxDamage(340);
+			setMaxDamage(700);
 			setMaxStackSize(1);
 		}
 
@@ -60,7 +59,7 @@ public class MCreatorEmeraldHeo extends speedyplane2274toolsplus.ModElement {
 
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, IBlockState par2Block) {
-			return 6f;
+			return 8f;
 		}
 
 		@Override
@@ -82,7 +81,7 @@ public class MCreatorEmeraldHeo extends speedyplane2274toolsplus.ModElement {
 
 		@Override
 		public int getItemEnchantability() {
-			return 2;
+			return 8;
 		}
 	}
 }

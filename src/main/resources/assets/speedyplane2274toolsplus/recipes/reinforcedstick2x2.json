@@ -1,0 +1,19 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "speedyplane2274toolsplus:reinforcedstick",
+    "count": 1
+  }
+}

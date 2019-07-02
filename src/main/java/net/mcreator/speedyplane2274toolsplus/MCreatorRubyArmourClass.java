@@ -10,7 +10,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 public class MCreatorRubyArmourClass extends speedyplane2274toolsplus.ModElement {
@@ -26,16 +25,16 @@ public class MCreatorRubyArmourClass extends speedyplane2274toolsplus.ModElement
 
 	public MCreatorRubyArmourClass(speedyplane2274toolsplus instance) {
 		super(instance);
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("RUBYARMOURCLASS", "speedyplane2274toolsplus:armourmap", 25,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("RUBYARMOURCLASS", "speedyplane2274toolsplus:ruby_new", 25,
 				new int[]{5, 7, 8, 4}, 10, null, 1.8f);
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("rubyarmourclasshelmet")
-				.setRegistryName("rubyarmourclasshelmet").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("rubyarmourclasshelmet").setCreativeTab(MCreatorToolsPlus.tab));
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("rubyarmourclassbody")
-				.setRegistryName("rubyarmourclassbody").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("rubyarmourclassbody").setCreativeTab(MCreatorToolsPlus.tab));
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS).setUnlocalizedName("rubyarmourclasslegs")
-				.setRegistryName("rubyarmourclasslegs").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("rubyarmourclasslegs").setCreativeTab(MCreatorToolsPlus.tab));
 		instance.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET).setUnlocalizedName("rubyarmourclassboots")
-				.setRegistryName("rubyarmourclassboots").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("rubyarmourclassboots").setCreativeTab(MCreatorToolsPlus.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

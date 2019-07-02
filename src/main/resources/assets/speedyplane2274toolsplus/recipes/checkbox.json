@@ -1,0 +1,23 @@
+{
+  "group": "speedyplane2274toolsplus",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bedrock"
+    },
+    "2": {
+      "item": "minecraft:bedrock"
+    },
+    "3": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "speedyplane2274toolsplus:checkmark",
+    "count": 1
+  }
+}

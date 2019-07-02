@@ -10,7 +10,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Set;
@@ -30,7 +29,7 @@ public class MCreatorRubyHoe extends speedyplane2274toolsplus.ModElement {
 				ret.put("hoe", 1);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("rubyhoe").setRegistryName("rubyhoe").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("rubyhoe").setRegistryName("rubyhoe").setCreativeTab(MCreatorToolsPlus.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

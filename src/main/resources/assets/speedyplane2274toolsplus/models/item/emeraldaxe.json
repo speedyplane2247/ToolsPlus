@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "speedyplane2274toolsplus:items/emerald_axe"
+    "layer0": "speedyplane2274toolsplus:items/emerald_axe_new"
   }
 }

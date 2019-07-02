@@ -8,7 +8,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
@@ -35,7 +34,7 @@ public class MCreatorSlackITEM extends speedyplane2274toolsplus.ModElement {
 			maxStackSize = 64;
 			setUnlocalizedName("slackitem");
 			setRegistryName("slackitem");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(MCreatorToolsPlus.tab);
 		}
 
 		@Override

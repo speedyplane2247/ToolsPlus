@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "speedyplane2274toolsplus:blocks/rubyclock",
-    "up": "speedyplane2274toolsplus:blocks/rubyclock",
-    "north": "speedyplane2274toolsplus:blocks/rubyclock",
-    "east": "speedyplane2274toolsplus:blocks/rubyclock",
-    "south": "speedyplane2274toolsplus:blocks/rubyclock",
-    "west": "speedyplane2274toolsplus:blocks/rubyclock",
-    "particle": "speedyplane2274toolsplus:blocks/rubyclock"
+    "down": "speedyplane2274toolsplus:blocks/ruby_block_new",
+    "up": "speedyplane2274toolsplus:blocks/ruby_block_new",
+    "north": "speedyplane2274toolsplus:blocks/ruby_block_new",
+    "east": "speedyplane2274toolsplus:blocks/ruby_block_new",
+    "south": "speedyplane2274toolsplus:blocks/ruby_block_new",
+    "west": "speedyplane2274toolsplus:blocks/ruby_block_new",
+    "particle": "speedyplane2274toolsplus:blocks/ruby_block_new"
   }
 }
